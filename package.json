@@ -1,0 +1,28 @@
+{
+  "name": "api-wilayah-indo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "api",
+    "wilayah",
+    "indonesia",
+    "express",
+    "geo"
+  ],
+  "author": "Muhammad Nur Ashiddiqi",
+  "license": "ISC",
+  "description": "API untuk menyediakan data wilayah Indonesia seperti provinsi, kabupaten, kecamatan, dan kelurahan.",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
